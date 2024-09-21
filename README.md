@@ -18,33 +18,58 @@ Ma vie personelle, les histoires d'autres personnes vivant avec les mêmes probl
 ## Scénario
 
 ### Interactif
-
+```mermaid
 graph TD;
-    A-->B;
+    Interraction-->B;
     A-->C;
     B-->D;
     C-->D;
-
+```
 
 ### Narratif
 
+```mermaid
+graph TD;
+    Narration-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ### Expérience utilisateur
 
+```mermaid
+graph TD;
+    Exploration-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 ## Ambiance
 
 ### Planche d'ambiances visuelles
 
+Exemples de projets similaires
+
 ### Planche d'ambiances sonores
+
+Planche d'ambiance
 
 ### Références artistiques
 
+Oeuvres inspirantes.
 
 ## Technologies
 
 ### Support médiatique
 
+Vidéo, audio, sensoriel interactif ?
+
 ### Matériel
+
+Simulateur de crampes, capteur de pouls, stéréos, projecteur, lumières, cables, une salle, chaise au besoin.
 
 ### Logiciels
 
+Arduino, Touch Designer, Reaper, Logic Pro, Max, etc..
