@@ -1,62 +1,50 @@
-# docsify-modele-classique
-modèle de page docsify pour une publication via page sans actions 
+# Ruine
 
 
-## Personalisation
+## Idée
 
-### index.html
+### Concept
 
-#### meta
+Une personne est connectée à un simulateur de crampes menstruelles et un capteur de fréquences cardiaque. La douleur reçu, selon la fréquence cardiaque, va venir changer l'environnement du participant tout selon sa fréquence cardiaque. Les designs graphiques projetés sur le mur, les couleurs et les mouvements sont modifiés. Les sons se déforment et se modifis tout selon ce que ressent la personne qui reçoit les légères douleurs. Ce qui rend le tout intéressent c'est que toute personne recevant les douleurs peut réagir différemment et donc intéragir avec la pièce uniquement, bien sûr, avec certaines limites.
 
-Est utilisée pour inclure des métadonnées, comme des descriptions ou des informations relatives au contenu de la page, sans les afficher directement aux utilisateurs.
+### Objectifs
 
-```html
+Le but est de faire comprendre à chaque personnes ce qu'une personne **peut concevoir sensoriellement** la douleur menstruelle à chaque mois. **Placer quelqu'un n'aillant pas de crampes à la place de celle, ou celui, qui en a** à chaque mois et qui doit gérer sa vie en conséquence. **Ouvrir la parole sur un sujet qui est tabou.**
 
-<meta name="description" content="Modèle docsify pour publication classique">
+### Motivations
 
-```
+Ma vie personelle, les histoires d'autres personnes vivant avec les mêmes problèmes. Les sensations ressentis. Après avoir regardé des vidéos de personnes testant des simulateurs de crampes, l'inspiration m'est venue d'utiliser cette technologie. ??????
 
-#### title
-Définit le titre de la page qui s'affiche dans l'onglet du navigateur et est utilisé par les moteurs de recherche comme le titre principal dans les résultats de recherche.
+## Scénario
 
-```html
-<title>Modèle docsify pour publication classique</title>
-```
+### Interactif
 
-
-
-
-#### window.$docsify 
-
-##### name
-
-Titre de la page affiché dans la barre de coté
-
-```html
-name: 'Modèle Docsify Classique',
-```
-
-##### repo
-
-Lien vers le repository git du projet à documenter, cliquable depuis l'icone dans la barre de coté
-
-```html
-repo: 'https://github.com/gllmAR/docsify-modele-classique',
-```
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 
 
-#### CSS (optionnelle)
+### Narratif
 
-Source et lien vers style CSS lié  [gllmAR/docsify-simple-style](https://github.com/gllmAR/docsify-simple-style/)
+### Expérience utilisateur
 
 
-```html
-<style>
-    :root {
-        --theme-hue:2;
-        --theme-brightness:60%;
-    }
-</style>
-```
+## Ambiance
 
+### Planche d'ambiances visuelles
+
+### Planche d'ambiances sonores
+
+### Références artistiques
+
+
+## Technologies
+
+### Support médiatique
+
+### Matériel
+
+### Logiciels
 
