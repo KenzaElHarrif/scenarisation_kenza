@@ -11,7 +11,7 @@
 
 ### Concept
 
-Une personne est connectée à un simulateur de crampes menstruelles et un capteur de fréquences cardiaque. La douleur reçu va venir changer l'environnement du participant tout selon sa fréquence cardiaque. Les designs graphiques projetés sur le mur, les couleurs et les mouvements sont modifiés tout dépendant des fréquences détectés. Les sons se déforment et se modifis tout selon ce que ressent la personne qui reçoit les légères douleurs. Ce qui rend le tout intéressent c'est que toute personne recevant les douleurs peut réagir différemment et donc intéragir avec la pièce uniquement, bien sûr, avec certaines limites.
+Une personne est connectée à un simulateur de crampes menstruelles et un capteur de fréquences cardiaque. La douleur reçu va venir changer l'environnement du participant tout selon sa fréquence cardiaque. Les designs graphiques projetés sur le mur, les couleurs et les mouvements sont modifiés tout dépendant des fréquences détectés. Les sons se déforment et se modifis tout selon ce que ressent la personne qui reçoit les légères douleurs. Ce qui rend le tout intéressent c'est que toute personne recevant les douleurs peut réagir différemment et donc intéragir avec la pièce de manière unique, bien sûr, avec certaines limites. De plus, les participants extérieurs (n'aillant pas le simulateur) pourraient ajuster l’intensité des sons émits dans l'entourage via un capteur de mouvement, ce qui rajoute du chaos à l'oeuvre. Cela mettrait en lumière l’idée que les douleurs menstruelles sont parfois mal comprises et incontrollables. Le tout deviendra un environnement pour y faire comprendre l'impact nerveux. EN TOUT TEMPS, la personne recevant les crampes pourra arrêter la simulation. Seulement, son temps, son niveau atteint sera compté et inscrit.
 
 ### Objectifs
 
@@ -84,6 +84,9 @@ https://katherinemelancon.com/new-work/
 https://htmlles.net/
 https://htmlles.net/calendrier/a-nos-protheses/
 https://www.ada-x.org/activities/exposition-lorraine-oades/
+
+
+https://www.youtube.com/watch?v=yQ3vqfdIToo&list=PLUFYSjzJt4pSAkPLRojNrTt6ZOVkDmI2_&index=35
 https://www.ada-x.org/activities/unfolding-sequences-ima-pico/
 https://www.youtube.com/results?search_query=how+to+use+period+cramp+simulator
 
