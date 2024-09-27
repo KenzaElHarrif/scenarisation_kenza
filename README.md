@@ -27,17 +27,23 @@ https://github.blog/developer-skills/github/include-diagrams-markdown-files-merm
 
 ```mermaid
 graph TD;
-    A[veille]--mettre sim-->B{Départ des crampes};
-    B-- Participant -->C[Réglage des niveaux de douleur];
-    B-- Spectateur -->D[Interractivité];
-    C-->E[Niveau 1-3];
-    C-->F[Niveau 3-5];
-    C-->G[Niveau 5-7];
-    C-->H[Niveau 7-10];
-    E-->I{Fréquences cardiaques};
-    F-->I{Fréquences cardiaques};
-    G-->I{Fréquences cardiaques};
-    H-->I{Fréquences cardiaques};
+    A[veille]--Participant A-->B{Met le simulateur};
+    B --Intercepte la douleur--> C[Réaction];
+    
+    
+    C --Variations de douleurs --> F{Si tolérence Grande};
+    F --> I[Lol]
+    F --> D{Si veux arrêter};
+    D -- Presse le bouton arrêt --> E[Arrête le simulateur];
+    E --> A;
+    C --Variations de douleurs --> G{Si tolérence Moyenne};
+    C --Variations de douleurs --> H{Si tolérence Légère};
+    
+    G --> D;
+    H --> D;
+    
+    A --Participant B-->X{Se promène};
+    
 ```
 
 ## Ambiance
@@ -58,7 +64,29 @@ Oeuvres inspirantes.
 
 ### Support médiatique
 
-Vidéo, audio, sensoriel interactif ?
+Vidéo, audio, sensoriel interactif ? Moodboard
+
+Inspirations:
+https://clotmag.com/body-sculptures/stelarc
+https://www.artspace.com/magazine/interviews_features/book_report/marina-abramovic-interview-klaus-biesenbach-54182
+PAIN STATION: https://www.youtube.com/watch?v=qMie0he1H7s
+PULSE ROOM: https://www.lozano-hemmer.com/pulse_room.php
+https://www.ngv.vic.gov.au/exhibition/lucy-mcrae/
+
+INFINITY ROOM: https://refikanadol.com/works/infinity-room/
+UNIVERS OF FIREPARTICLES FALLING FROM THE SKY: https://www.teamlab.art/ew/universe_fireparticles_falling/planets/
+TOUCH: https://studioroosegaarde.net/project/touch
+
+
+
+MUSIC:
+https://www.youtube.com/watch?v=UdKfehqXZc0
+https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
+https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
+https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
+https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
+https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
+
 
 ### Matériel
 
