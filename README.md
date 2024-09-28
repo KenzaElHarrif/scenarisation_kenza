@@ -77,8 +77,10 @@ Moodboard et color palette
 ![oasis](image)
 - **[Freeing the Voice](https://imma.ie/collection/freeing-the-voice/)** de [Marina Abramović](https://fr.wikipedia.org/wiki/Marina_Abramovi%C4%87)
 
+
 #### Liens d'autres oeuvres multimédias servant d'inspirations au projet:
 
+- [Machine hallucinations](https://refikanadol.com/works/machine-hallucinations-nature-dreams/)
 - [Body Sculptures](https://clotmag.com/body-sculptures/stelarc)
 - [PainStation](https://www.youtube.com/watch?v=qMie0he1H7s)
 - [Pulse Room](https://www.lozano-hemmer.com/pulse_room.php)
