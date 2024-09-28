@@ -1,5 +1,12 @@
 # Ruine
 
+à finaliser:
+- Moodboard
+- Ajout d'images
+- Scénario interactif
+- Technologies
+- Sources
+
 ## Idée
 
 ### Concept
