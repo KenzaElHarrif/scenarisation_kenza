@@ -19,12 +19,23 @@ Le but est de faire comprendre ce qu'une personne **peut ressentir**  autant **p
 
 >"Ada X est un centre d’artistes féministe bilingue engagé dans l’exploration, la création et la réflexion critique en arts médiatiques et en culture numérique."
 
-### Exemples d'oeuvres inspirantes:
+### Exemples d'oeuvres inspirantes faites par des femmes:
 
 - **[Eunoia](https://www.thelisapark.com/work/eunoia)** de [Lisa Park](https://www.thelisapark.com/)
 ![Eunoia](image)
+- **[I dream of a soft oasis](https://www.rihabessayh.com/i-dream-of-a-soft-oasis-2022)** de [Rihab Essayh](https://www.rihabessayh.com/)
+![oasis](image)
+- **[Freeing the Voice](https://imma.ie/collection/freeing-the-voice/)** de [Marina Abramović](https://fr.wikipedia.org/wiki/Marina_Abramovi%C4%87)
 
+### Liens d'autres oeuvres multimédias servant d'inspirations au projet:
 
+- [Body Sculptures](https://clotmag.com/body-sculptures/stelarc)
+- [PainStation](https://www.youtube.com/watch?v=qMie0he1H7s)
+- [Pulse Room](https://www.lozano-hemmer.com/pulse_room.php)
+- [Heavy Duty Love for Future Sensitive Humans](https://www.ngv.vic.gov.au/exhibition/lucy-mcrae/)
+- [Infinity Room](https://refikanadol.com/works/infinity-room/)
+- [Universe of Fire Particles Falling from the Sky](https://www.teamlab.art/ew/universe_fireparticles_falling/planets/)
+- [TOUCH](https://studioroosegaarde.net/project/touch)
 
 ## Scénario
 
@@ -72,25 +83,17 @@ Oeuvres inspirantes.
 Vidéo, audio, sensoriel interactif ? Moodboard
 
 Inspirations:
-https://clotmag.com/body-sculptures/stelarc
-https://www.artspace.com/magazine/interviews_features/book_report/marina-abramovic-interview-klaus-biesenbach-54182
-PAIN STATION: https://www.youtube.com/watch?v=qMie0he1H7s
-PULSE ROOM: https://www.lozano-hemmer.com/pulse_room.php
-https://www.ngv.vic.gov.au/exhibition/lucy-mcrae/
 
-INFINITY ROOM: https://refikanadol.com/works/infinity-room/
-UNIVERS OF FIREPARTICLES FALLING FROM THE SKY: https://www.teamlab.art/ew/universe_fireparticles_falling/planets/
-TOUCH: https://studioroosegaarde.net/project/touch
 
 
 
 MUSIC:
-https://www.youtube.com/watch?v=UdKfehqXZc0
-https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
-https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
-https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
-https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
-https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
+- https://www.youtube.com/watch?v=UdKfehqXZc0
+- https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
+- https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
+- https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
+- https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
+- https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
 
 
 ### Matériel
