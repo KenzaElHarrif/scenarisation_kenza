@@ -1,12 +1,5 @@
 # Ruine
 
-à finaliser:
-- Moodboard
-- Ajout d'images
-- Scénario interactif
-- Technologies
-- Sources
-
 ## Idée
 
 ### Concept
@@ -111,39 +104,64 @@ graph TD;
 - [Infinity Room](https://refikanadol.com/works/infinity-room/) de Refik Anadol
 - [Universe of Fire Particles Falling from the Sky](https://www.teamlab.art/ew/universe_fireparticles_falling/planets/) de Teamlab
 - [TOUCH](https://studioroosegaarde.net/project/touch) de Studio Roosegaarde
+- [PSYCH.E](https://en.36degres.art/psych-e) exposition expérience mise en place par 36 degrés et la Galerie Charlot
 
 ## Technologies
 
 ### Support médiatique
 
-Description des types de médias (vidéo, audio, lumières, capteurs, etc.) et de leur intégration pour créer une expérience immersive. (Ce que je montre pour l'ambiance)
+- Vidéos interactives, particules 3D de TouchDesigner, modifications à partir des fréquences cardiaques.
+- Interactivité sonore, ambiances stéréos, modification à l'aide de capteurs.
 
 ### Matériel
+- Simulateur de muscles TENS
 
-Simulateur de crampes, capteur de fréquences cardiaques, stéréos, projecteur, lumières, cables, une salle, chaise au besoin, clavier et ordi ? timer ? bouton angle pour lvl de douleur ?.
+![Tens_01](/images/tensunit.png)
+![Tens_02](/images/tensunit_02.png)
+
+- Capteur de fréquences cardiaques
+
+![Heartrate](/images/heartrate.png)
+
+- Speakers
+- Projecteurs
+- Lumières
+- Bouton
+- Cables
+- Ordinateur portable
+- Chaise
+- Une salle
 
 ### Logiciels
 
-Arduino, Touch Designer, Reaper, Logic Pro, Max, (Unity, blender si 3D, si utilisation de modèles) ??
+|Arduino|TouchDesigner|Reaper|Logic Pro|
+|----|----|----|----|
+|![Arduino](/images/arduino-logo.png)|![TouchDesigner](/images/TouchDesigner_logo.png)|![Reaper](/images/REAPER_logo.png)|![LogicPro](/images/Logic_Pro_icon.png)|
 
-## sources
+## Sources
 
-https://www.serwah.xyz/digital-art
-https://www.instagram.com/pierrepauze/
-https://www.thelisapark.com/work/eunoia
-https://www.lozano-hemmer.com/pulse_island.php
-https://www.instagram.com/_ng_v/
-https://ocula.com/magazine/insights/pain-and-peace-in-michele-chus-installation-art/
-https://www.wikiart.org/fr/marina-abramovic
-https://fisheyeimmersive.com/article/art-numerique-quand-les-femmes-questionnent-le-sexe/
-https://www.ada-x.org/activities/les-larmes-evaporees-des-roses-de-sable-rihab-essayh/
-https://www.ada-x.org/activities/htmlles-2024-les-mouvements-qui-nous-sommes-giv/
-https://katherinemelancon.com/new-work/
-https://htmlles.net/
-https://htmlles.net/calendrier/a-nos-protheses/
-https://www.ada-x.org/activities/exposition-lorraine-oades/
-https://www.youtube.com/watch?v=yQ3vqfdIToo&list=PLUFYSjzJt4pSAkPLRojNrTt6ZOVkDmI2_&index=35
-https://www.ada-x.org/activities/unfolding-sequences-ima-pico/
-https://www.youtube.com/results?search_query=how+to+use+period+cramp+simulator
+### Recherches:
+- https://www.serwah.xyz/digital-art
+- https://www.thelisapark.com/work/eunoia
+- https://www.thelisapark.com/
+- https://www.lozano-hemmer.com/pulse_island.php
+- https://www.wikiart.org/fr/marina-abramovic
+- https://imma.ie/collection/freeing-the-voice/
+- https://fisheyeimmersive.com/article/art-numerique-quand-les-femmes-questionnent-le-sexe/
+- https://www.ada-x.org/
+- https://htmlles.net/
+- https://www.ada-x.org/activities/exposition-lorraine-oades/
+- https://www.ada-x.org/activities/unfolding-sequences-ima-pico/
+- https://www.ada-x.org/activities/pas-dapparat-corps/
+- https://www.ada-x.org/activities/les-larmes-evaporees-des-roses-de-sable-rihab-essayh/
 
-https://www.ada-x.org/productions/festival/page/2/
+### Vidéos:
+
+- https://www.youtube.com/watch?v=UdKfehqXZc0
+- https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
+- https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
+- https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
+- https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
+- https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
+- https://www.youtube.com/watch?v=PuiWm2Lb-hk
+- https://www.youtube.com/watch?v=qMie0he1H7s
