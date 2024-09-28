@@ -24,30 +24,46 @@ Le but est de faire comprendre ce qu'une personne **peut ressentir**  autant **p
 - Le manque d'oeuvres interactives au mouvement féministe (Un domaine majoritèrement homme)
 - [Ada x](https://www.ada-x.org/):
 
->"Ada X est un centre d’artistes féministe bilingue engagé dans l’exploration, la création et la réflexion critique en arts médiatiques et en culture numérique."
+>*"Ada X est un centre d’artistes féministe bilingue engagé dans l’exploration, la création et la réflexion critique en arts médiatiques et en culture numérique."*
 
 ## Scénario
 
-https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/
+- Note participant B: Plus il y a de participants B, plus il y a de chaos.
 
 ```mermaid
 graph TD;
     A[veille]--Participant A-->B{Met le simulateur};
+    
     B --Intercepte la douleur--> C[Réaction];
     
+    C --Variations de douleurs --> D{Si tolérence Grande};
+    D --> G[Animations minimes, déformations visuelles]
+    D --> J{Si veux arrêter};
+    G --> J;
     
-    C --Variations de douleurs --> F{Si tolérence Grande};
-    F --> I[Lol]
-    F --> D{Si veux arrêter};
-    D -- Presse le bouton arrêt --> E[Arrête le simulateur];
-    E --> A;
-    C --Variations de douleurs --> G{Si tolérence Moyenne};
-    C --Variations de douleurs --> H{Si tolérence Légère};
+
+    C --Variations de douleurs --> E{Si tolérence Moyenne};
+    E --> H[Animations plus présentes, déformations visuelles];
+    E --> J;
+    H --> J;
+
+
+    C --Variations de douleurs --> F{Si tolérence Légère};
+    F --> I[Animations plus présentes, déformations visuelles];
+    F --> J;
+    I --> J;
     
-    G --> D;
-    H --> D;
+
+    J -- Presse le bouton arrêt --> K[Arrête le simulateur];
+    K --> A;
     
-    A --Participant B-->X{Se promène};
+    A --Participant B-->L{Se promène};
+    L -- Passe devant capteur--> M[Changements];
+    M --> N[Influance la réaction du Participant A];
+    M --> O[Influance les ajouts de sons et de chaos];
+    O --> P{Part};
+    L --> P;
+    P --> A;
     
 ```
 
@@ -55,7 +71,7 @@ graph TD;
 
 ### Planche d'ambiances visuelles
 
-Moodboard et color palette
+![Moodboard](/images/Moodboard.png)
 
 ### Planche d'ambiances sonores
 
@@ -72,22 +88,29 @@ Moodboard et color palette
 #### Exemples d'oeuvres inspirantes faites par des femmes:
 
 - **[Eunoia](https://www.thelisapark.com/work/eunoia)** de [Lisa Park](https://www.thelisapark.com/)
-![Eunoia](image)
+
+![Eunoia](/images/Eunoia.png)
+![Eunoia](/images/Eunoia_02.png)
+
 - **[I dream of a soft oasis](https://www.rihabessayh.com/i-dream-of-a-soft-oasis-2022)** de [Rihab Essayh](https://www.rihabessayh.com/)
-![oasis](image)
+
+![oasis](images/softOasis.png)
+
 - **[Freeing the Voice](https://imma.ie/collection/freeing-the-voice/)** de [Marina Abramović](https://fr.wikipedia.org/wiki/Marina_Abramovi%C4%87)
+
+![Voice](images/FreeVoice.png)
 
 
 #### Liens d'autres oeuvres multimédias servant d'inspirations au projet:
 
-- [Machine hallucinations](https://refikanadol.com/works/machine-hallucinations-nature-dreams/)
-- [Body Sculptures](https://clotmag.com/body-sculptures/stelarc)
-- [PainStation](https://www.youtube.com/watch?v=qMie0he1H7s)
-- [Pulse Room](https://www.lozano-hemmer.com/pulse_room.php)
-- [Heavy Duty Love for Future Sensitive Humans](https://www.ngv.vic.gov.au/exhibition/lucy-mcrae/)
-- [Infinity Room](https://refikanadol.com/works/infinity-room/)
-- [Universe of Fire Particles Falling from the Sky](https://www.teamlab.art/ew/universe_fireparticles_falling/planets/)
-- [TOUCH](https://studioroosegaarde.net/project/touch)
+- [Machine hallucinations](https://refikanadol.com/works/machine-hallucinations-nature-dreams/) de Refik Anadol
+- [Body Sculptures](https://clotmag.com/body-sculptures/stelarc) de STELARC
+- [PainStation](https://www.youtube.com/watch?v=qMie0he1H7s) de Volker Morawe et Tilman Reiff
+- [Pulse Room](https://www.lozano-hemmer.com/pulse_room.php) de Rafael Lozano-Hemmer
+- [Heavy Duty Love for Future Sensitive Humans](https://www.ngv.vic.gov.au/exhibition/lucy-mcrae/) de Lucy McRae
+- [Infinity Room](https://refikanadol.com/works/infinity-room/) de Refik Anadol
+- [Universe of Fire Particles Falling from the Sky](https://www.teamlab.art/ew/universe_fireparticles_falling/planets/) de Teamlab
+- [TOUCH](https://studioroosegaarde.net/project/touch) de Studio Roosegaarde
 
 ## Technologies
 
