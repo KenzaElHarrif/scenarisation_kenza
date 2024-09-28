@@ -1,25 +1,30 @@
 # Ruine
 
 ## Idée
-- Donner une environnement compétitif?
-- Donner du travail à faire ?
-- Calculer le temps total pour supporter ?
-- Calculer les fréquences cardiaques ?
-- Projections d'environnements ?
-- Donner les spectateurs une interractivité (avoir contrôle du level de douleur ?)
-
 
 ### Concept
 
-Une personne est connectée à un simulateur de crampes menstruelles et un capteur de fréquences cardiaque. La douleur reçu va venir changer l'environnement du participant tout selon sa fréquence cardiaque. Les designs graphiques projetés sur le mur, les couleurs et les mouvements sont modifiés tout dépendant des fréquences détectés. Les sons se déforment et se modifis tout selon ce que ressent la personne qui reçoit les légères douleurs. Ce qui rend le tout intéressent c'est que toute personne recevant les douleurs peut réagir différemment et donc intéragir avec la pièce de manière unique, bien sûr, avec certaines limites. De plus, les participants extérieurs (n'aillant pas le simulateur) pourraient ajuster l’intensité des sons émits dans l'entourage via un capteur de mouvement, ce qui rajoute du chaos à l'oeuvre. Cela mettrait en lumière l’idée que les douleurs menstruelles sont parfois mal comprises et incontrollables. Le tout deviendra un environnement pour y faire comprendre l'impact nerveux. EN TOUT TEMPS, la personne recevant les crampes pourra arrêter la simulation. Seulement, son temps, son niveau atteint sera compté et inscrit.
+Une personne est connectée à un simulateur de crampes menstruelles et un capteur de fréquences cardiaque. La douleur reçu va venir changer l'environnement du participant tout selon sa fréquence cardiaque. Les designs graphiques projetés sur le mur, les couleurs et les mouvements sont modifiés tout dépendant des fréquences détectés. Les sons se déforment et se modifis tout selon ce que ressent la personne qui reçoit les légères douleurs. Ce qui rend le tout intéressent c'est que toute personne recevant les douleurs peut réagir différemment et donc intéragir avec la pièce de manière unique, bien sûr, avec certaines limites. De plus, les participants extérieurs (n'aillant pas le simulateur) pourraient avoir contrôle des sons ambiants via un capteur de mouvement, ce qui rajoute du chaos à l'oeuvre. Cela mettrait en lumière l’idée que les douleurs menstruelles sont parfois mal comprises et incontrollables. Le tout deviendra un environnement pour y faire comprendre l'impact nerveux. ¸A tout moment, la personne recevant les crampes pourra arrêter la simulation.
 
 ### Objectifs
 
-Le but est de faire comprendre à chaque personnes ce qu'une personne **peut concevoir sensoriellement** la douleur menstruelle à chaque mois. **Placer quelqu'un n'aillant pas de crampes à la place de celle, ou celui, qui en a** à chaque mois et qui doit gérer sa vie en conséquence. **Ouvrir la parole sur un sujet qui est tabou.**
+Le but est de faire comprendre ce qu'une personne **peut ressentir**  autant **physiquement** que **mentalement** en recevant des douleurs menstruelle à chaque mois en **plaçant quelqu'un n'aillant pas de crampes à la place de celle, ou celui, qui en a** à chaque mois et qui doit gérer sa vie en conséquence. Aussi, **ouvrir la parole sur un sujet qui serait tabou.**
 
 ### Motivations
 
-Ma vie personelle, les histoires d'autres personnes vivant avec les mêmes problèmes. Les sensations ressentis. Après avoir regardé des vidéos de personnes testant des simulateurs de crampes, l'inspiration m'est venue d'utiliser cette technologie. ??????
+- Mon expérience personnelle et celle de mon entourage.
+- Le mouvement féministe.
+- Le manque d'oeuvres interactives au mouvement féministe (Un domaine majoritèrement homme)
+- [Ada x](https://www.ada-x.org/):
+
+>"Ada X est un centre d’artistes féministe bilingue engagé dans l’exploration, la création et la réflexion critique en arts médiatiques et en culture numérique."
+
+### Exemples d'oeuvres inspirantes:
+
+- **[Eunoia](https://www.thelisapark.com/work/eunoia)** de [Lisa Park](https://www.thelisapark.com/)
+![Eunoia](image)
+
+
 
 ## Scénario
 
