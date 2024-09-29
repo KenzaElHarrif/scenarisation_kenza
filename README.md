@@ -71,12 +71,11 @@ graph TD;
 ### Planche d'ambiances sonores
 
 #### Musique:
-- https://www.youtube.com/watch?v=UdKfehqXZc0
-- https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
-- https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
-- https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
-- https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
-- https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
+- [Universe of Fire Particles Falling from the Sky](https://www.youtube.com/watch?v=UdKfehqXZc0)
+- [THE DAY WE LEFT FIELD](https://www.youtube.com/watch?v=oZAot9EZFM0&t=1s)
+- [Oriens](https://www.youtube.com/watch?v=IC1x9fgReQ0)
+- [Behind INEXISTENCE](https://www.youtube.com/watch?v=d7vyEsxvKpQ)
+- [Atmospheric Experimental Sound Design](https://www.youtube.com/watch?v=3w7ay5LPtOY)
 
 ### Références artistiques
 
