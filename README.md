@@ -4,17 +4,19 @@
 
 ### Concept
 
-Une personne est connectée à un simulateur de crampes menstruelles et un capteur de fréquences cardiaque. La douleur reçu va venir changer l'environnement du participant tout selon sa fréquence cardiaque. Les designs graphiques projetés sur le mur, les couleurs et les mouvements sont modifiés tout dépendant des fréquences détectés. Les sons se déforment et se modifis tout selon ce que ressent la personne qui reçoit les légères douleurs. Ce qui rend le tout intéressent c'est que toute personne recevant les douleurs peut réagir différemment et donc intéragir avec la pièce de manière unique, bien sûr, avec certaines limites. De plus, les participants extérieurs (n'aillant pas le simulateur) pourraient avoir contrôle des sons ambiants via un capteur de mouvement, ce qui rajoute du chaos à l'oeuvre. Cela mettrait en lumière l’idée que les douleurs menstruelles sont parfois mal comprises et incontrollables. Le tout deviendra un environnement pour y faire comprendre l'impact nerveux. À tout moment, la personne recevant les crampes pourra arrêter la simulation.
+Une personne est connectée à un simulateur de crampes menstruelles et à un capteur de fréquences cardiaques. La douleur reçue va venir changer l'environnement du participant, tout selon le pouls de celle-ci. Les designs graphiques projetés sur le mur et l'éclairage sont modifiés tout dépendant des fréquences détectées. Ce qui rend le tout intéressant, c'est que toute personne recevant les douleurs peut réagir différemment et donc interagir avec la pièce de manière unique, bien sûr, avec certaines limites. De plus, les participants extérieurs (n'ayant pas le simulateur) pourraient avoir le contrôle des sons ambiants via un capteur de mouvement, ce qui rajoute du chaos à l'oeuvre. Cela mettrait en lumière l’idée que les douleurs menstruelles sont parfois mal comprises et incontrôlables. Le tout deviendra un environnement pour y faire comprendre l'impact nerveux d'une personne souffrante de crampes très douloureuses. À tout moment, la personne recevant les crampes pourra arrêter la simulation à l'aide d'un bouton.
 
 ### Objectifs
 
-Le but est de faire comprendre ce qu'une personne **peut ressentir**  autant **physiquement** que **mentalement** en recevant des douleurs menstruelle à chaque mois en **plaçant quelqu'un n'aillant pas de crampes à la place de celle, ou celui, qui en a** à chaque mois et qui doit gérer sa vie en conséquence. Aussi, **ouvrir la parole sur un sujet qui serait tabou.**
+Le but est de faire comprendre ce qu’une personne aillant des crampes menstruelles ressent à chaques mois, autant physiquement que mentalement. L’idée est de placer quelqu’un qui n’en souffre pas dans la situation de celles et ceux qui en sont affectés. Il s’agit aussi d'**ouvrir la parole sur un sujet qui serait tabou.**.
 
 ### Motivations
 
 - Mon expérience personnelle et celle de mon entourage.
 - Le mouvement féministe.
-- Le manque d'oeuvres interactives au mouvement féministe (Un domaine majoritèrement homme)
+- Le manque d'oeuvres interactives au mouvement féministe (Un domaine majoritairement homme).
+- Le manque de recherches effectuées pour les cas tels que l'endométriose, le développement de contraceptifs aux symptômes minimisés, et ainsi de suite.
+- *Female Rage*
 - [Ada x](https://www.ada-x.org/):
 
 >*"Ada X est un centre d’artistes féministe bilingue engagé dans l’exploration, la création et la réflexion critique en arts médiatiques et en culture numérique."*
@@ -29,19 +31,19 @@ graph TD;
     
     B --Intercepte la douleur--> C[Réaction];
     
-    C --Variations de douleurs --> D{Si tolérence Grande};
+    C --Variations de douleurs --> D{Si tolérence grande};
     D --> G[Animations minimes, déformations visuelles]
     D --> J{Si veux arrêter};
     G --> J;
     
 
-    C --Variations de douleurs --> E{Si tolérence Moyenne};
+    C --Variations de douleurs --> E{Si tolérence moyenne};
     E --> H[Animations plus présentes, déformations visuelles];
     E --> J;
     H --> J;
 
 
-    C --Variations de douleurs --> F{Si tolérence Légère};
+    C --Variations de douleurs --> F{Si tolérence légère};
     F --> I[Animations plus présentes, déformations visuelles];
     F --> J;
     I --> J;
@@ -53,7 +55,7 @@ graph TD;
     A --Participant B-->L{Se promène};
     L -- Passe devant capteur--> M[Changements];
     M --> N[Influance la réaction du Participant A];
-    M --> O[Influance les ajouts de sons et de chaos];
+    M --> O[Influe les ajouts et déformations de sons, et donc de chaos];
     O --> P{Part};
     L --> P;
     P --> A;
