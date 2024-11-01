@@ -141,7 +141,7 @@ graph TD;
 
 ## Sources
 
-### Recherches:
+### Recherches pour la conception:
 - https://www.serwah.xyz/digital-art
 - https://www.thelisapark.com/work/eunoia
 - https://www.thelisapark.com/
@@ -156,7 +156,7 @@ graph TD;
 - https://www.ada-x.org/activities/pas-dapparat-corps/
 - https://www.ada-x.org/activities/les-larmes-evaporees-des-roses-de-sable-rihab-essayh/
 
-### Vidéos:
+### Vidéos pour la conception:
 
 - https://www.youtube.com/watch?v=UdKfehqXZc0
 - https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
@@ -166,3 +166,13 @@ graph TD;
 - https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
 - https://www.youtube.com/watch?v=PuiWm2Lb-hk
 - https://www.youtube.com/watch?v=qMie0he1H7s
+
+# Planification
+
+## Modifications apportés
+
+### Notes
+
+- **Modification** par rapport à la prise de données du participant A: Fréquence cardiaque **prise plus simplement à l'aide d'un kit PulseSensor** et programmation dans Arduino détaillé et documenté. Le participant met le bout de son doigt sur le sensor et ainsi on peut avoir un rate assez précis comme indiqué dans la documentation de leur [site PulseSensor.com](https://pulsesensor.com/).
+
+
