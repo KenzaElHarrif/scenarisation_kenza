@@ -174,5 +174,89 @@ graph TD;
 ### Notes
 
 - **Modification** par rapport à la prise de données du participant A: Fréquence cardiaque **prise plus simplement à l'aide d'un kit PulseSensor** et programmation dans Arduino détaillé et documenté. Le participant met le bout de son doigt sur le sensor et ainsi on peut avoir un rate assez précis comme indiqué dans la documentation de leur [site PulseSensor.com](https://pulsesensor.com/).
+- 
+## Scénarimage
 
+# Légende
 
+![Scenarimage legende](images/scenarimage_legende.jpg)
+
+![Scenarimage 1-4](images/scenarimage_1-4.jpg)
+
+![Scenarimage 5-8](images/scenarimage_5-8.jpg)
+
+## Simulation
+
+## Synoptique
+```mermaid
+graph TD;
+    
+    A[Chariot/ordis]--->|DMX XLR|B[Spot];
+    B--->C[Projete lumière sur table];
+    A---> D[Systeme Atom5];
+    D -.- A;
+
+    A--->|HDMI|E[Projecteur 1];
+    E--->F[Projete à droite];
+
+    A--->|HDMI|G[Projecteur 2];
+    G--->H[Projete au centre];
+
+    A--->|HDMI|I[Projecteur 3];
+    I--->J[Projete à gauche];
+
+    D--->|PulseSensor|K[Capteur Frequence Cardiaque];
+    K--->L[Prend le pouls du participant A];
+    L-.-|Data|D;
+
+    A--->|USB to USB-C|M[Simulateur de crampes];
+    M--->N[Envoie douleur à Participant A]
+  
+    D--->O[Key Unit/BTN stop];
+    O--->P[Arrête le simulateur]
+    P-.->M;
+    O-.-D;
+
+    D--->Q[Capteur TOF/distance x3];
+    Q--->R[Capte la distance de participant B];
+    R-.-D;
+    
+    A--->S[Carte de son];
+    S--->T[Système de son gauche];
+    T--->U[Son Stereo Gauche]
+
+    S--->V[Système de son droit];
+    V--->W[Son stereo Droit];
+
+```
+
+## Plantation
+
+![Dessus](/images/top.png)
+![Côté](/images/side.png)
+![Devant](/images/front.png)
+
+## Devis technique
+
+PDF sur la création d'un système de simulation de crampes menstruelles: [Test](https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf)
+
+Dans le document, Il est expliqué qu'un Power Supply est connecté à un Control Board contrôlé par Arduino, ce control Board est relié par deux electrodes qui envoient des pulsions musculaires au bas ventre et simulent les crampes. Ce système peut aussi être lié à Unity pour coder la puissance électrique.
+
+>The power supply used was P4K36-1 (Matsusada Precision Inc., Japan) with voltage control. The voltage was set to be updated every 0.1 s using the supplied SDK and Unity to change the strength of electrical stimulation.
+
+- Problématiques: très risqué de faire le simulateur pas sois même.
+- Solution: Prendre un simulateur déjà existant et trouvé le moyen de utilisé la notion apprise pour recréer cette simulation similaire à l'aide de Unity et Arduino.
+
+## Sécurité
+
+### Réglementations en matière de santé et de sécurité
+
+### Formulaire de consentement
+
+### S'assuré de la santé physique du Participant avant la simulation
+
+### Suivis
+
+### Assurance
+
+### 
