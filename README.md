@@ -232,18 +232,70 @@ graph TD;
 
 ## Plantation
 
-![Scenarimage 5-8](images/scenarimage_5-8.jpg)
+![Top](images/top.png)
+![Side](images/side.png)
+![Front](images/front.png)
 
 ## Devis technique
 
-PDF sur la création d'un système de simulation de crampes menstruelles: [Test](https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf)
+### Vidéo
+- 3x Murs/écrans
+- 3x Projecteurs
+
+### Audio
+
+- 2x Hauts-parleurs
+- 1x Carte de son
+- Cables audios
+
+### Éclairage
+
+- 1x Spot
+- Cables pour éclairage
+
+### Simulateur de crampes
+
+- 1x Système de simulation de crampes menstruelles
+- Cables USN à USB-C (ou celui au besoin)
+
+[PDF sur la création d'un système de simulation de crampes menstruelles](https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf)
 
 Dans le document, Il est expliqué qu'un Power Supply est connecté à un Control Board contrôlé par Arduino, ce control Board est relié par deux electrodes qui envoient des pulsions musculaires au bas ventre et simulent les crampes. Ce système peut aussi être lié à Unity pour coder la puissance électrique.
+
+```mermaid
+graph TD;
+    
+    A[Power Supply] ---> C[Control Board];
+    B[Arduino] ---> C;
+    C---> D[2x Electrodes];
+    D---> E[Participant A];
+
+```
 
 >The power supply used was P4K36-1 (Matsusada Precision Inc., Japan) with voltage control. The voltage was set to be updated every 0.1 s using the supplied SDK and Unity to change the strength of electrical stimulation.
 
 - Problématiques: très risqué de faire le simulateur pas sois même.
-- Solution: Prendre un simulateur déjà existant et trouvé le moyen de utilisé la notion apprise pour recréer cette simulation similaire à l'aide de Unity et Arduino.
+- Solution: Prendre un simulateur déjà existant et trouvé le moyen d'utiliser la notion apprise pour recréer cette simulation similaire à l'aide de Unity et Arduino.
+
+- Selon un [article sur Reddit](https://www.reddit.com/r/TwoXChromosomes/comments/wnr46u/using_a_tens_device_to_simulate_period_cramps/) un utilisateur met ses settings à **SD2 WIDTH 50 μs 36 Hz** et un autre explique de ne pas mettre les électrodes proche du coeur.
+
+
+### Capteur de fréquence cardiaque
+
+Le capteur cardiaque peut être emprunté à l'école selon le cours d'Espace Interactif.
+
+Sinon, le site [site PulseSensor.com](https://pulsesensor.com/) montre leurs matériels et les possibilités offertes pour la captation de fréquence cardiaques.
+Ce que le site fournit:
+- Prix de leurs produits.
+- Codes Arduinos.
+- Documentation détaillée.
+
+## Matériels et coûts
+
+|Matériel|Coût|
+|----|----|
+|||
+  
 
 ## Sécurité
 
