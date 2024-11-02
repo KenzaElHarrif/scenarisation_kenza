@@ -174,10 +174,8 @@ graph TD;
 ### Notes
 
 - **Modification** par rapport à la prise de données du participant A: Fréquence cardiaque **prise plus simplement à l'aide d'un kit PulseSensor** et programmation dans Arduino détaillé et documenté. Le participant met le bout de son doigt sur le sensor et ainsi on peut avoir un rate assez précis comme indiqué dans la documentation de leur [site PulseSensor.com](https://pulsesensor.com/).
-- 
-## Scénarimage
 
-# Légende
+## Scénarimage
 
 ![Scenarimage legende](images/scenarimage_legende.jpg)
 
