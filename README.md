@@ -190,40 +190,43 @@ graph TD;
 ## Synoptique
 ```mermaid
 graph TD;
+    
     A[Chariot/ordis]--->|DMX XLR|B[Spot];
     B--->C[Projete lumière sur table];
+    A---> D[Systeme Atom5];
+    D -.- A;
 
-    A[Chariot/ordis]--->|HDMI|D[Projecteur 1];
-    D--->E[Projete à droite];
+    A--->|HDMI|E[Projecteur 1];
+    E--->F[Projete à droite];
 
-    A[Chariot/ordis]--->|HDMI|F[Projecteur 2];
-    F--->G[Projete au centre];
+    A--->|HDMI|G[Projecteur 2];
+    G--->H[Projete au centre];
 
-    A[Chariot/ordis]--->|HDMI|H[Projecteur 3];
-    H--->I[Projete à gauche];
+    A--->|HDMI|I[Projecteur 3];
+    I--->J[Projete à gauche];
 
-    A[Chariot/ordis]--->|PulseSensor|J[Capteur Frequence Cardiaque];
-    J--->K[Prend le pouls du participant A];
-    K-.-|Data|A;
+    D--->|PulseSensor|K[Capteur Frequence Cardiaque];
+    K--->L[Prend le pouls du participant A];
+    L-.-|Data|D;
 
-    A[Chariot/ordis]--->|USB to USB-C|L[Simulateur de crampes];
-    L--->M[Envoie douleur à Participant A]
+    A--->|USB to USB-C|M[Simulateur de crampes];
+    M--->N[Envoie douleur à Participant A]
   
-    A[Chariot/ordis]--->N[Btn Stop];
-    N--->O[Arrête le simulateur]
-    O-.->L;
-    O-.-A;
+    D--->O[Key Unit/BTN stop];
+    O--->P[Arrête le simulateur]
+    P-.->M;
+    O-.-D;
 
-    A[Chariot/ordis]--->P[Capteur TOF/distance];
-    P--->Q[Capte la distance de participant B];
-    Q-.-A;
+    D--->Q[Capteur TOF/distance];
+    Q--->R[Capte la distance de participant B];
+    R-.-D;
     
-    A[Chariot/ordis]--->R[Carte de son];
-    R--->S[Système de son gauche];
-    S--->T[Son Stereo Gauche]
+    A--->S[Carte de son];
+    S--->T[Système de son gauche];
+    T--->U[Son Stereo Gauche]
 
-    R--->U[Système de son droit];
-    U--->V[Son stereo Droit];
+    S--->V[Système de son droit];
+    V--->W[Son stereo Droit];
 
    
     
