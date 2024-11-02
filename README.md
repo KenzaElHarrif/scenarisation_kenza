@@ -217,7 +217,7 @@ graph TD;
     P-.->M;
     O-.-D;
 
-    D--->Q[Capteur TOF/distance];
+    D--->Q[Capteur TOF/distance x3];
     Q--->R[Capte la distance de participant B];
     R-.-D;
     
@@ -228,17 +228,17 @@ graph TD;
     S--->V[Système de son droit];
     V--->W[Son stereo Droit];
 
-   
-    
 ```
 
 ## Plantation
 
-Schéma dessus et tous les côtés
+![Dessus](/images/top.png)
+![Côté](/images/side.png)
+![Devant](/images/front.png)
 
 ## Devis technique
 
-PDF sur la création d'un système de simulation de crampes menstruelles: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf
+PDF sur la création d'un système de simulation de crampes menstruelles: [Test](https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf)
 
 Dans le document, Il est expliqué qu'un Power Supply est connecté à un Control Board contrôlé par Arduino, ce control Board est relié par deux electrodes qui envoient des pulsions musculaires au bas ventre et simulent les crampes. Ce système peut aussi être lié à Unity pour coder la puissance électrique.
 
