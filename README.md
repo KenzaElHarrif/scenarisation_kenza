@@ -229,9 +229,11 @@ graph TD;
 ```
 
 ## Plantation
-
+### Dessus
 ![Top](images/top.png)
+### Côté
 ![Side](images/side.png)
+### Devant
 ![Front](images/front.png)
 
 ## Devis technique
@@ -239,6 +241,7 @@ graph TD;
 ### Vidéo
 - 3x Murs/écrans
 - 3x Projecteurs
+- Cables au besoin
 
 ### Audio
 
