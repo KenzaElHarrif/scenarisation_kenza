@@ -232,9 +232,7 @@ graph TD;
 
 ## Plantation
 
-![Dessus](/images/top.png)
-![Côté](/images/side.png)
-![Devant](/images/front.png)
+![Scenarimage 5-8](images/scenarimage_5-8.jpg)
 
 ## Devis technique
 
