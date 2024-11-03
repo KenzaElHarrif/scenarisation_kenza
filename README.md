@@ -144,7 +144,7 @@ graph TD;
 
 ### Notes
 
-- **Modification** par rapport à la prise de données du participant A: Fréquence cardiaque **prise plus simplement à l'aide d'un kit PulseSensor** et programmation dans Arduino détaillé et documenté. Le participant met le bout de son doigt sur le sensor et ainsi on peut avoir un rate assez précis comme indiqué dans la documentation de leur [site PulseSensor.com](https://pulsesensor.com/).
+- **Modification** par rapport à la prise de données du participant A: Fréquence cardiaque **prise plus simplement à l'aide d'un kit PulseSensor** et programmation dans Arduino détaillée et documentée. Le participant met le bout de son doigt sur le sensor et ainsi on peut avoir des données assez précises, comme indiqué dans la documentation de leur [site PulseSensor.com](https://pulsesensor.com/).
 
 ## Scénarimage
 
@@ -167,24 +167,24 @@ graph TD;
 graph TD;
     
     A[Chariot/ordis]--->|DMX XLR|B[Spot];
-    B--->C[Projete lumière sur table];
-    A---> D[Systeme Atom5];
+    B--->C[Projette lumière pour illuminer la table];
+    A---> D[Atom5];
     D -.- A;
 
     A--->|HDMI|E[Projecteur 1];
-    E--->F[Projete à droite];
+    E--->F[Projette à droite];
 
     A--->|HDMI|G[Projecteur 2];
-    G--->H[Projete au centre];
+    G--->H[Projette au centre];
 
     A--->|HDMI|I[Projecteur 3];
-    I--->J[Projete à gauche];
+    I--->J[Projette à gauche];
 
-    D--->|PulseSensor|K[Capteur Frequence Cardiaque];
-    K--->L[Prend le pouls du participant A];
-    L-.-|Data|D;
+    D--->|PulseSensor|K[Capteur fréquence cardiaque];
+    K--->L[Prends le pouls du participant A];
+    L-.-|Données|D;
 
-    A--->|USB to USB-C|M[Simulateur de crampes];
+    A--->|USB à USB-C|M[Simulateur de crampes];
     M--->N[Envoie douleur à Participant A]
   
     D--->O[Key Unit/BTN stop];
@@ -193,14 +193,14 @@ graph TD;
     O-.-D;
 
     D--->Q[Capteur TOF/distance x3];
-    Q--->R[Capte la distance de participant B];
+    Q--->R[Capte la distance du participant B];
     R-.-D;
     
     A--->S[Carte de son];
-    S--->T[Système de son gauche];
+    S--->T[Speaker gauche];
     T--->U[Son Stereo Gauche]
 
-    S--->V[Système de son droit];
+    S--->V[Speaker droit];
     V--->W[Son stereo Droit];
 
 ```
@@ -242,11 +242,11 @@ graph TD;
 ### Simulateur de crampes
 
 - 1x Système de simulation de crampes menstruelles TENS
-- Cables USB à USB-C (ou celui au besoin selon le modèle TENS)
+- Cables USB à USB-C ou celui au besoin selon le modèle TENS
 
 [PDF sur la création d'un système de simulation de crampes menstruelles](https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf)
 
-Dans le document, Il est expliqué qu'un Power Supply est connecté à un Control Board contrôlé par Arduino, ce control Board est relié par deux electrodes qui envoient des pulsions musculaires au bas ventre et simulent les crampes. Ce système peut aussi être lié à Unity pour coder la puissance électrique.
+Dans le document, Il est expliqué qu'un Power Supply est connecté à un Control Board contrôlé par Arduino, ce Control Board est relié par deux électrodes qui envoient des pulsions musculaires au bas-ventre et simulent les crampes. Ce système peut aussi être lié à Unity pour coder la puissance électrique.
 
 ```mermaid
 graph TD;
@@ -260,10 +260,12 @@ graph TD;
 
 >The power supply used was P4K36-1 (Matsusada Precision Inc., Japan) with voltage control. The voltage was set to be updated every 0.1 s using the supplied SDK and Unity to change the strength of electrical stimulation.
 
-- Problématiques: très risqué de faire le simulateur pas sois même.
-- Solution: Prendre un simulateur déjà existant et trouvé le moyen d'utiliser la notion apprise pour recréer cette simulation similaire à l'aide de Unity et Arduino.
+- Problématiques: très risqué de faire le simulateur pas soi-même.
+- Solution: Prendre un simulateur déjà existant et trouver le moyen d'utiliser la notion apprise pour recréer les cycles de douleurs à l'aide de Unity et Arduino.
 
-- Selon un [article sur Reddit](https://www.reddit.com/r/TwoXChromosomes/comments/wnr46u/using_a_tens_device_to_simulate_period_cramps/) un utilisateur met ses settings à **SD2 WIDTH 50 μs 36 Hz** et un autre explique de ne pas mettre les électrodes proche du coeur.
+**À Noter**
+- Selon un [article sur Reddit](https://www.reddit.com/r/TwoXChromosomes/comments/wnr46u/using_a_tens_device_to_simulate_period_cramps/) un utilisateur met ses settings à **SD2 WIDTH 50 μs 36 Hz** et un autre explique de ne pas mettre les électrodes proches du coeur.
+- Faire attention au courant qui passe, trouver des matériaux en plastique ou en caoutchouc plutôt qu'en métal afin d'éviter une catastrophe ?
 
 ![Tens_01](/images/tensunit.png)
 [Lien](https://www.amazon.ca/%C3%89lectrostimulateur-musculaire-rechargeable-g%C3%A9n%C3%A9ration-%C3%A9lectrodes/dp/B07795GZS4/ref=sr_1_4_sspa?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ODI3FH3G7SX0&dib=eyJ2IjoiMSJ9.DsshipwxMCJ9cegYk4f-ysu2Q2kfUJGDWKRGyXUJ2pyp__nlgQA0YNacWzMjRRRkVvOWZO71WRu6ZeFy-B51iOW_hMls4t3P0J_SdsbULNXQGTpARmdfXs8LcRKhkSXqHHgI6GvL1oBvKgWwgjWzsrL_Rvex86-juE9w8kEmFlYzI0ytrRUGt8HfvF9BZItfgE1bq5Ftd62TWdVhWWia9hDVMgD2cSBPnErbhPXP4TcIsr9EvcYQHG_JbtqoyenqaaTCK0PDPLAbd1frWpgBt5_gfofIYU7BNW43Scyq7Hk.o0p0uQz1TkEEH1LH1epNQUIyxcX3MrhlcvFm4yQ44pA&dib_tag=se&keywords=auvon&qid=1730584064&sprefix=auvon%2Caps%2C88&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
@@ -272,8 +274,9 @@ graph TD;
 
 Le capteur cardiaque peut être emprunté à l'école selon le cours d'Espace Interactif.
 
-Sinon, le site [site PulseSensor.com](https://pulsesensor.com/) montre leurs matériels et les possibilités offertes pour la captation de fréquence cardiaques.
-Ce que le site fournit:
+Sinon, le site [site PulseSensor.com](https://pulsesensor.com/) montre leurs matériels et les possibilités offertes pour la captation de fréquences cardiaques.
+
+**Ce que le site fournit:**
 - Prix de leurs produits.
 - Codes Arduinos.
 - Documentation détaillée.
