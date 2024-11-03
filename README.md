@@ -326,3 +326,12 @@ Selon **[ChatGPT](https://openai.com/index/chatgpt/)**, afin d'assurer la sécur
 - https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
 - https://www.youtube.com/watch?v=PuiWm2Lb-hk
 - https://www.youtube.com/watch?v=qMie0he1H7s
+
+### Recherches pour la planification:
+- https://pulsesensor.com/
+- https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf
+- https://www.reddit.com/r/TwoXChromosomes/comments/wnr46u/using_a_tens_device_to_simulate_period_cramps/
+- https://openai.com/index/chatgpt/
+
+### 3D:
+- https://sketchfab.com/3d-models/person-9033c37ccf394abe97f48021c393cc56
