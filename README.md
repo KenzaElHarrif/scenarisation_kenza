@@ -117,7 +117,6 @@ graph TD;
 ### Matériel
 - Simulateur de muscles TENS
 
-![Tens_01](/images/tensunit.png)
 ![Tens_02](/images/tensunit_02.png)
 
 - Capteur de fréquences cardiaques
@@ -139,34 +138,6 @@ graph TD;
 |----|----|----|----|
 |![Arduino](/images/arduino-logo.png)|![TouchDesigner](/images/TouchDesigner_logo.png)|![Reaper](/images/REAPER_logo.png)|![LogicPro](/images/Logic_Pro_icon.png)|
 
-## Sources
-
-### Recherches pour la conception:
-- https://www.serwah.xyz/digital-art
-- https://www.thelisapark.com/work/eunoia
-- https://www.thelisapark.com/
-- https://www.lozano-hemmer.com/pulse_island.php
-- https://www.wikiart.org/fr/marina-abramovic
-- https://imma.ie/collection/freeing-the-voice/
-- https://fisheyeimmersive.com/article/art-numerique-quand-les-femmes-questionnent-le-sexe/
-- https://www.ada-x.org/
-- https://htmlles.net/
-- https://www.ada-x.org/activities/exposition-lorraine-oades/
-- https://www.ada-x.org/activities/unfolding-sequences-ima-pico/
-- https://www.ada-x.org/activities/pas-dapparat-corps/
-- https://www.ada-x.org/activities/les-larmes-evaporees-des-roses-de-sable-rihab-essayh/
-
-### Vidéos pour la conception:
-
-- https://www.youtube.com/watch?v=UdKfehqXZc0
-- https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
-- https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
-- https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
-- https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
-- https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
-- https://www.youtube.com/watch?v=PuiWm2Lb-hk
-- https://www.youtube.com/watch?v=qMie0he1H7s
-
 # Planification
 
 ## Modifications apportés
@@ -184,6 +155,12 @@ graph TD;
 ![Scenarimage 5-8](images/scenarimage_5-8.jpg)
 
 ## Simulation
+
+![Simulation 1](images/Ruine_simulation_view1.png)
+![Simulation 1](images/Ruine_simulation_view2.png)
+![Simulation 1](images/Ruine_simulation_view2.png)
+
+- Modèle 3D utilisé: [Person](https://sketchfab.com/3d-models/person-9033c37ccf394abe97f48021c393cc56) par jDunn
 
 ## Synoptique
 ```mermaid
@@ -254,10 +231,18 @@ graph TD;
 - 1x Spot
 - Cables pour éclairage
 
+### Captations
+
+- 3x Capteurs de distance TOF fournis par l'école
+- Atom5 fournis par l'école
+- Key Unit fournis par l'école
+
+-Un ordinateur/chariot fournis par l'école
+
 ### Simulateur de crampes
 
-- 1x Système de simulation de crampes menstruelles
-- Cables USN à USB-C (ou celui au besoin)
+- 1x Système de simulation de crampes menstruelles TENS
+- Cables USB à USB-C (ou celui au besoin selon le modèle TENS)
 
 [PDF sur la création d'un système de simulation de crampes menstruelles](https://www.jstage.jst.go.jp/article/jrobomech/33/5/33_1051/_pdf)
 
@@ -280,6 +265,8 @@ graph TD;
 
 - Selon un [article sur Reddit](https://www.reddit.com/r/TwoXChromosomes/comments/wnr46u/using_a_tens_device_to_simulate_period_cramps/) un utilisateur met ses settings à **SD2 WIDTH 50 μs 36 Hz** et un autre explique de ne pas mettre les électrodes proche du coeur.
 
+![Tens_01](/images/tensunit.png)
+[Lien](https://www.amazon.ca/%C3%89lectrostimulateur-musculaire-rechargeable-g%C3%A9n%C3%A9ration-%C3%A9lectrodes/dp/B07795GZS4/ref=sr_1_4_sspa?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ODI3FH3G7SX0&dib=eyJ2IjoiMSJ9.DsshipwxMCJ9cegYk4f-ysu2Q2kfUJGDWKRGyXUJ2pyp__nlgQA0YNacWzMjRRRkVvOWZO71WRu6ZeFy-B51iOW_hMls4t3P0J_SdsbULNXQGTpARmdfXs8LcRKhkSXqHHgI6GvL1oBvKgWwgjWzsrL_Rvex86-juE9w8kEmFlYzI0ytrRUGt8HfvF9BZItfgE1bq5Ftd62TWdVhWWia9hDVMgD2cSBPnErbhPXP4TcIsr9EvcYQHG_JbtqoyenqaaTCK0PDPLAbd1frWpgBt5_gfofIYU7BNW43Scyq7Hk.o0p0uQz1TkEEH1LH1epNQUIyxcX3MrhlcvFm4yQ44pA&dib_tag=se&keywords=auvon&qid=1730584064&sprefix=auvon%2Caps%2C88&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 
 ### Capteur de fréquence cardiaque
 
@@ -291,23 +278,48 @@ Ce que le site fournit:
 - Codes Arduinos.
 - Documentation détaillée.
 
-## Matériels et coûts
+![PulseSensor](/images/plusesensorfullkit.png)
+
+## Coûts de matériel à acheter
 
 |Matériel|Coût|
 |----|----|
-|||
-  
+|Tens|~39,99$|
+|PulseSensor|~42$|
+|Total|~82$-92$|  
 
 ## Sécurité
+Selon **[ChatGPT](https://openai.com/index/chatgpt/)**, afin d'assurer la sécurité autant des participants que celle du projet, il faut suivre quelques étapes importantes.
 
-### Réglementations en matière de santé et de sécurité
+![Règlementations 1](images/chat_gpt_regl.png)
+![Règlementations 1](images/chat_gpt_regl_2.png)
+![Règlementations 1](images/chat_gpt_regl_3.png)
+![Règlementations 1](images/chat_gpt_regl_4.png)
 
-### Formulaire de consentement
+## Sources
 
-### S'assuré de la santé physique du Participant avant la simulation
+### Recherches pour la conception:
+- https://www.serwah.xyz/digital-art
+- https://www.thelisapark.com/work/eunoia
+- https://www.thelisapark.com/
+- https://www.lozano-hemmer.com/pulse_island.php
+- https://www.wikiart.org/fr/marina-abramovic
+- https://imma.ie/collection/freeing-the-voice/
+- https://fisheyeimmersive.com/article/art-numerique-quand-les-femmes-questionnent-le-sexe/
+- https://www.ada-x.org/
+- https://htmlles.net/
+- https://www.ada-x.org/activities/exposition-lorraine-oades/
+- https://www.ada-x.org/activities/unfolding-sequences-ima-pico/
+- https://www.ada-x.org/activities/pas-dapparat-corps/
+- https://www.ada-x.org/activities/les-larmes-evaporees-des-roses-de-sable-rihab-essayh/
 
-### Suivis
+### Vidéos pour la conception:
 
-### Assurance
-
-### 
+- https://www.youtube.com/watch?v=UdKfehqXZc0
+- https://www.youtube.com/watch?v=4XeSs9a1rLQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk
+- https://www.youtube.com/watch?v=Tu0psLnYyW4&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=7
+- https://www.youtube.com/watch?v=d7vyEsxvKpQ&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=10
+- https://www.youtube.com/watch?v=50UKqoiqf3k&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=11
+- https://www.youtube.com/watch?v=3w7ay5LPtOY&list=PLBBz6wzKh2tMFQ-kCNZKN96oCJCIcehtk&index=12
+- https://www.youtube.com/watch?v=PuiWm2Lb-hk
+- https://www.youtube.com/watch?v=qMie0he1H7s
