@@ -158,7 +158,7 @@ graph TD;
 
 ![Simulation 1](images/Ruine_simulation_view1.png)
 ![Simulation 1](images/Ruine_simulation_view2.png)
-![Simulation 1](images/Ruine_simulation_view2.png)
+![Simulation 1](images/Ruine_simulation_view3.png)
 
 - Modèle 3D utilisé: [Person](https://sketchfab.com/3d-models/person-9033c37ccf394abe97f48021c393cc56) par jDunn
 
